@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-EXPOSE 8081
+EXPOSE 8181
 
 ADD target/user-service-docker.jar user-service-docker.jar
 

@@ -1,0 +1,20 @@
+server {
+    listen 8383;
+    server_name localhost;
+
+    location / {
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_pass http://localhost:8000;
+    }
+
+    location / {
+        proxy_bind 8181;
+        proxy_pass http://localhost/user-api/;
+    }
+
+    location / {
+        proxy_bind 8282;
+        proxy_pass http://localhost/article-api/;
+    }
+}

@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a5442-cf9e-4494-9c2f-81798d48de87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api-geteway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-geteway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/ApiGetewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/ApiGetewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/filter/ErrorFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/filter/PostFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/filter/PreFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/src/main/java/edu/anatomist/apigeteway/filter/RouteFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config.nginx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1iLE6aM8JxOrJPBPLxedo5sBqet" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,5 +76,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
