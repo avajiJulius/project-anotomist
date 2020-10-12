@@ -18,4 +18,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
             value = "select u from User u where upper(u.username) = upper(:username)")
     List<User> findUserByUsername(@Param("username") String username);
 
+
 }

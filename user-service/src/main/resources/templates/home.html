@@ -13,6 +13,7 @@
         <th> Username</th>
         <th> First name</th>
         <th> Last name</th>
+        <th> Action</th>
     </tr>
     </thead>
     <tbody>
@@ -21,6 +22,7 @@
         <td th:text="${user.username}"></td>
         <td th:text="${user.firstName}"></td>
         <td th:text="${user.lastName}"></td>
+        <td><a th:href="@{/show/{id}(id=${user.id})}">Update</a></td>
     </tr>
     </tbody>
 </table>
