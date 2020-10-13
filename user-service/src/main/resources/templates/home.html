@@ -10,6 +10,7 @@
     <thead>
     <tr>
         <th> ID</th>
+        <th> Photo</th>
         <th> Username</th>
         <th> First name</th>
         <th> Last name</th>
@@ -19,6 +20,7 @@
     <tbody>
     <tr th:each="user : ${userList}">
         <td th:text="${user.id}"></td>
+        <td><img th:src="@{/images/{img}(img=${user.userPhoto})}"></td>
         <td th:text="${user.username}"></td>
         <td th:text="${user.firstName}"></td>
         <td th:text="${user.lastName}"></td>

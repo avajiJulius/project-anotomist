@@ -7,10 +7,11 @@
 <body>
 <h2>Add User</h2>
 
-<form action="#" th:action="@{/saveUser}" th:object="${user}" method="POST">
+<form action="#" th:action="@{/saveUser}" th:object="${user}" method="POST" enctype="multipart/form-data">
     <input type="text" th:field="*{username}" placeholder="Username">
     <input type="text" th:field="*{firstName}" placeholder="First name">
     <input type="text" th:field="*{lastName}" placeholder="Last name">
+    <input type="file" th:field="*{userPhoto}" placeholder="Upload Photo">
     <button type="submit">ADD</button>
 </form>
 <hr>

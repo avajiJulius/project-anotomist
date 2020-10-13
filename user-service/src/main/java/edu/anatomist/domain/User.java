@@ -1,7 +1,10 @@
 package edu.anatomist.domain;
 
 
+import org.springframework.web.multipart.MultipartFile;
+
 import javax.persistence.*;
+import java.io.File;
 
 @Entity
 @Table(name = "usr")
@@ -17,6 +20,8 @@ public class User {
     private String firstName;
     @Column(name = "last_name")
     private String lastName;
+
+    private String userPhoto;
 
     public User() {
     }
@@ -51,6 +56,14 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getUserPhoto() {
+        return userPhoto;
+    }
+
+    public void setUserPhoto(String userPhoto) {
+        this.userPhoto = userPhoto;
     }
 
     @Override
